@@ -1,0 +1,14 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+ int h,l,total,larry,harry;
+    cin >> h >> l;
+    total = h+l-1;
+    larry = total - h;
+    harry = total - l;
+    cout << larry << endl << harry;
+
+}
