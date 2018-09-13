@@ -1,0 +1,28 @@
+// codigo desarrollado con un amigo que me guió en el proceso, ya que no pude encontrar 
+// el error en el funcionamiento del codigo subido a En progreso.
+#include <iostream>
+#include <math.h>
+#include <iomanip>
+#include <vector>
+
+using namespace std;
+
+int main()
+{
+   vector <long double> c;
+   signed long long int numero;
+    int tamano;
+
+    cout << setprecision(4);
+    cout << fixed;
+
+      while(cin >> numero){
+        c.push_back(sqrt(numero));
+        }
+
+         tamano=c.size()-1;
+    for (int i=tamano; i>=0; i--){
+       cout <<  c[i] << endl;
+    }
+    return 0;
+}
