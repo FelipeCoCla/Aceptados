@@ -1,5 +1,3 @@
-// codigo desarrollado con un amigo que me guió en el proceso, ya que no pude encontrar 
-// el error en el funcionamiento del codigo subido a En progreso.
 #include <iostream>
 #include <math.h>
 #include <iomanip>
