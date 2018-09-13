@@ -19,7 +19,7 @@ int main(){
         int aux = 0; 
         
         for(int j = 0;j<N;++j)
-            if(i & (1<<j)) aux += w[j]; //recorre la máscara
+            if(i & (1<<j)) aux += w[j]; 
             else aux -= w[j];
         
         ans = min(ans,abs(aux)); //menor valor de la suma
