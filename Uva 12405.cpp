@@ -5,7 +5,7 @@ using namespace std;
 char s;
 vector <bool> campo;
 
-int n,espantapajaros,m,postrue;
+int n,espantapajaros,m;
 int contador = 0;
 
 int main()
@@ -18,10 +18,8 @@ int main()
 
         for (int i=0;i<m;i++){
             cin >> s;
-            s;
             if (s == '.'){
                 campo.push_back(true);
-                postrue = i;
             } else {
                 campo.push_back(false);
             }
