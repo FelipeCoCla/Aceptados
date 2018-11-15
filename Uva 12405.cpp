@@ -4,7 +4,7 @@
 using namespace std;
 char s;
 vector <bool> campo;
-vector <string> str;
+
 int n,espantapajaros,m,postrue;
 int contador = 0;
 
